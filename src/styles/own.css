@@ -1,0 +1,1409 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.g-fonts {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.btn-g-fonts {
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.form-styling-class{
+  margin: 0;
+  margin-top: 15vh;
+
+
+
+}
+.form-box-styling{
+  padding: 12px 12px;
+}
+
+.img-custom-class{
+  /* overflow: hidden; */
+  height: auto;
+}
+.signup-text-styling{
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 700;
+  color: #2f2e2ebe;
+}
+
+
+/* BodyMain component's two buttons styling - START*/
+
+.google-login-button {
+  width: 100%;
+}
+
+.login-btn-grad-main{
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display:block;
+  width: 9rem;
+}
+
+.login-btn-grad-main:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-btn-grad-main {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  width: 9rem;
+}
+
+.signup-btn-grad-main:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* BodyMain component's two buttons styling- END*/
+
+.icon-image{
+  object-fit: contain;
+}
+
+.custom-nav-item{
+  color:red;
+  text-decoration: none;
+}
+
+.login-btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: inline-block;
+  width: 12rem;
+}
+
+.login-btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  width: 12rem;
+}
+
+.signup-btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.subhead-decoration{
+  text-decoration: none;
+}
+
+.footer-subhead-decoration{
+  text-decoration: none !important;
+  color: white;
+}
+
+
+
+
+
+/* Desktop Size*/
+
+@media (min-width: 576px) {
+
+
+  .main-hero-section {
+
+    padding-left: 6rem;
+    padding-right: 2rem;
+    margin-top: 4rem;
+  }
+
+  .main-card-sec-1{
+
+    display : flex;
+     flex-direction : column;
+      padding-top : 88px;
+      padding-bottom : 88px;
+  }
+
+  .main-card-sec-2{
+    display : flex;
+     flex-direction : column;
+      padding-bottom : 66px;
+      padding-top : 66px;
+  }
+  
+  .main-card-sec-3{
+    display : flex;
+     flex-direction : column;
+     padding-top : 66px;
+      padding-bottom : 88px;
+  }
+
+  .hero-card-main-div-frame {
+
+    padding-left: 66px;
+    padding-right: 46px;
+  }
+  .txt-1 {
+    font-family: "Poppins";
+    font-size: 2rem;
+    margin-top: 6rem;
+  }
+
+  .custom-drop-width{
+    width:20rem;
+  }
+
+
+  .txt-2 {
+    font-family: "Inter";
+    font-size: 65px;
+    font-weight: 700;
+  }
+
+  .txt-3 {
+    font-family: "Poppins";
+    padding-left: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .txt-4 {
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 10rem;
+    text-align: start;
+  }
+
+  .hero-main-card-design {
+
+    display : flex;
+    border-radius : 4px;
+    justify-content: space-around;
+    align-items: center;
+    padding-left : 6rem;
+    background: #3C3D37;
+    color : whitesmoke;
+
+
+  }
+
+  .img-1 {
+    margin-top: 3rem;
+  }
+
+
+  .bb-txt-1 {
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #2f2e2e;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  
+  .bb-txt-2 {
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2f2e2e;
+    margin-bottom: 25px;
+    line-height: 28px;
+  }
+
+  .bb-txt-3 {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+  }
+  .bb-txt-4 {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+  }
+  .bb-txt-5 {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+  }
+
+  .inf-txt-1 {
+    font-family: "Poppins";
+    font-size: 60px;
+    font-weight: 700;
+    color: #2f2e2e;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    
+  }
+
+  .txt-1 {
+    font-family: "Inter";
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+
+  .custom-drop-width{
+    width:20rem;
+  }
+
+
+  .txt-2 {
+    font-family: "Inter";
+    font-size: 60px;
+    font-weight: 700;
+    color: #11009E;
+    margin-top : '3rem';
+
+  }
+
+  .txt-3 {
+    font-family: "Poppins";
+    padding-left: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .txt-4 {
+    font-family: "Inter";
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: start;
+  }
+
+  .img-1 {
+    margin-top: 3rem;
+  }
+
+  .pricing-txt {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2f2e2e;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .pricing-txt-price {
+    font-family: "Poppins";
+    font-size: 3rem;
+    font-weight: 500;
+    color: #0E21A0;
+    margin-bottom: 15px;
+  }
+
+
+  .bb-txt-1 {
+    font-family: "Poppins";
+    font-size: 32px;
+    font-weight: 500;
+    color: #2f2e2e;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  
+  .bb-txt-2 {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2f2e2e;
+    margin-bottom: 25px;
+    line-height: 28px;
+  }
+
+  .bb-txt-3 {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2f2e2e;
+  }
+  .bb-txt-4 {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2f2e2e;
+  }
+  .bb-txt-5 {
+    font-family: "Inter";
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #2f2e2e;
+  }
+
+  .inf-txt-1 {
+    font-family: "Inter";
+    font-size: 60px;
+    font-weight: 700;
+    color: #2f2e2e;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    
+  }
+
+  .signup-btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #7752FE 51%,
+      #7752FE 100%
+    );
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+    text-decoration: none;
+    font-weight: 400;
+    width: 100%;
+
+  
+  }
+
+  .signup-btn-grad-2 {
+    background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #7752FE 51%,
+      #7752FE 100%
+    );
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: flex;
+    max-width: 50%;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 500;
+
+  
+  }
+  .subtext{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #7D7C7C;
+
+  }
+
+  .get-started-button-credit-card{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    margin-left: 4.7rem;
+    
+  }
+
+ 
+
+  .creator-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 42px;
+    color: #11009E;
+    
+  }
+
+  .creator-underline-marketer {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 60px;
+  }
+
+  .creator-underline-marketer::after {
+    background: #ff2340;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      #ff0e1a 50%,
+      transparent 100%
+    );
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+
+  .row-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #0056f5; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+  
+  .right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #8b00d0; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+  
+  .right-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #78b13f; /* Adjust color as needed */
+    margin-right: 10px;
+  }
+
+  .dot-1 {
+    width: 10px;
+    height: 10px;
+    background-color: #0056f5; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .dot-2 {
+    width: 10px;
+    height: 10px;
+    background-color: #8b00d0; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .dot-3 {
+    width: 10px;
+    height: 10px;
+    background-color: #78b13f; /* Adjust color as needed */
+    border-radius: 50%;
+    margin-right: 10px;
+
+  }
+
+  .just-arrow-1 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #0056f5; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-2 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #8b00d0; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-3 {
+    margin-right: 10px;
+    display: inline-block;
+    color: #78b13f; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+ 
+}
+
+.features-details{
+  padding-left: 32px;
+}
+
+/* Mobile Device*/
+@media (max-width: 576px) {
+
+  .row-center {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .right-arrow-1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #0056f5; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+  .right-arrow-2 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #8b00d0; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+  
+  .right-arrow-3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #78b13f; /* Adjust color as needed */
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+
+  .dot-1 {
+    width: 20px;
+    height: 15px;
+    background-color: #0056f5; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+
+  }
+
+  .dot-2 {
+    width: 20px;
+    height: 14px;
+    background-color: #8b00d0; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+  }
+
+  .dot-3 {
+    width: 20px;
+    height: 13px;
+    background-color: #78b13f; /* Adjust color as needed */
+    border-radius: 100%;
+    margin-right: 10px;
+    align-self: flex-start;
+    margin-top: 6px;
+
+
+  }
+
+  .just-arrow-1 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #0056f5; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-2 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #8b00d0; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .just-arrow-3 {
+    margin-right: 10px;
+    align-self: flex-start;
+    display: inline-block;
+    color: #78b13f; /* Adjust color as needed */
+    font-size: 22px; /* Adjust font size as needed */
+  }
+
+  .txt-1 {
+    font-family: "Poppins";
+    font-size: 22px;
+    margin-top: 1.2rem;
+    font-weight: 400;
+    padding-left: 1rem;
+  }
+
+  .txt-2 {
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 2rem;
+    margin-top: 4rem;
+    color: #11009E;
+  }
+
+  .txt-3 {
+    font-family: "Inter";
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .txt-4 {
+    font-family: "Inter";
+    padding-top: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    line-height: 1.8;
+
+    /* text-align: center; */
+  }
+
+  .features-details{
+    padding-left: 20px;
+  }
+
+
+  .pricing-txt {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 500;
+    color: #2f2e2e;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+
+  .pricing-txt-price {
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #0E21A0;
+    margin-bottom: 15px;
+  }
+
+  .img-1 {
+    margin-top: 1rem;
+  }
+
+  .img-1 {
+    margin-top: 1rem;
+  }
+
+  .btn-container {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .bb-txt-1 {
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 700;
+    color: #2f2e2e;
+    margin-top: 10px;
+
+  }
+
+  .bb-txt-2 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: #2f2e2e;
+  }
+
+  .bb-txt-3 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2e2e;
+  }
+  .bb-txt-4 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2e2e;
+    /* margin-bottom: 10px; */
+  }
+  .bb-txt-5 {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2e2e;
+    /* margin-bottom: 15px; */
+  }
+
+  .inf-txt-1 {
+    font-family: "Inter";
+    font-size: 52px;
+    font-weight: 600;
+    color: #2f2e2e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 60px;
+    
+  }
+
+  .subtext{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #7D7C7C;
+  }
+
+  .get-started-button-credit-card{
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+
+  .gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #ca4246;
+    font-size: 1.9rem;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(
+      45deg,
+      #ca4246 16.666%,
+      #e16541 16.666%,
+      #e16541 33.333%,
+      #f18f43 33.333%,
+      #f18f43 50%,
+      #8b9862 50%,
+      #8b9862 66.666%,
+      #476098 66.666%,
+      #476098 83.333%,
+      #a7489b 83.333%
+    );
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    background-clip: '';
+    -webkit-text-fill-color: transparent;
+  
+    /* Animate the text when loading the element. */
+    /* This animates it on page load and when hovering out. */
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+  }
+  
+  .gradient-text:hover {
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+  }
+
+  .creator-underline-marketer {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 52px;
+  }
+
+  .creator-underline-marketer::after {
+    background: #ff2340;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      #ff0e1a 50%,
+      transparent 100%
+    );
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+
+  .creator-underline {
+    padding-bottom: 1px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 26px;
+    color: #11009E;
+
+  }
+
+}
+
+
+
+.main-card-sec-1{
+
+  display : flex;
+   flex-direction : column;
+    padding-top : 88px;
+    padding-bottom : 66px;
+    padding-left: 22px;
+}
+
+.main-card-sec-2{
+  display : flex;
+   flex-direction : column;
+    padding-bottom : 66px;
+}
+
+.main-card-sec-3{
+  display : flex;
+   flex-direction : column;
+    padding-bottom : 88px;
+}
+
+
+
+.span-49 {
+  color: red;
+  font-weight: 700;
+}
+
+.span-70 {
+  color: #7149c6;
+  font-weight: 700;
+}
+
+#budRes {
+  color: #ff2121;
+  font-weight: 500;
+}
+
+.megaRes {
+  position: relative;
+  text-decoration: none;
+  font-weight: 500;
+  color: #D80032;
+
+}
+
+.signup-btn-grad {
+  background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #11009E 51%,
+      #7752FE 100%
+    );
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  height: 50px;
+  font-weight: 500;
+  background-color: #11009E;
+
+
+}
+
+.signup-btn-grad-2 {
+  background-image: linear-gradient(
+      to right,
+      #6319f8 0%,
+      #11009E 51%,
+      #7752FE 100%
+    );
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  height: 50px;
+  font-weight: 500;
+  background-color: #11009E;
+
+
+}
+
+
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #ca4246;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #ca4246 16.666%,
+    #e16541 16.666%,
+    #e16541 33.333%,
+    #f18f43 33.333%,
+    #f18f43 50%,
+    #8b9862 50%,
+    #8b9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #a7489b 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  background-clip: '';
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
+
+.span-underline {
+  padding-bottom: 1px;
+  position: relative;
+  text-decoration: none;
+}
+
+.span-underline::after {
+  background: #7149c6;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #7149c6 50%,
+    transparent 100%
+  );
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.creator-underline {
+  padding-bottom: 1px;
+  position: relative;
+  text-decoration: none;
+}
+
+/* .creator-underline::after {
+  background: #ff2340;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #ff0e1a 50%,
+    transparent 100%
+  );
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+} */
+
+.body-tag-styles {
+  font-family: "Poppins";
+  padding-top: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #3a3543b5;
+}
+
+.body-bottom-tag-styles {
+  font-family: "Poppins";
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #000000b5;
+}
+
+/* Accordian and Footer Css code */
+.nature-background {
+  background-color: #ffffff;
+}
+
+.product-card {
+  max-width: 82vw;
+  max-height: 80vh;
+  border-radius: 5px;
+}
+
+.card-1-bg {
+  background-color: #4d4d4d;
+}
+
+.card-2-bg {
+  background-color: #ab77ff89;
+}
+
+.card-3-bg {
+  background-color: #ffd96698;
+}
+
+.card-1-text {
+  color: #ffffff;
+}
+
+.strike-color {
+  color: #4d4d4d;
+}
+
+.offer-color {
+  color: rgb(255, 0, 0);
+}
+
+.product-text {
+  text-decoration: none;
+  color: black;
+}
+
+.checkedStar {
+  color: orange;
+}
+
+.review-container {
+  height: 40vh;
+}
+
+.testimonial-class {
+  font-size: 1.5rem;
+  background-color: #ccd5ae;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+/* custom css */
+.accordion {
+  background-color: #ffffff;
+}
+
+.my-accordion-item {
+  color: var(--bs-accordion-color);
+  background-color: var(--bs-accordion-bg);
+}
+
+.bg-footer-container {
+  /* background-color: #feda75;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white; */
+
+  background: #5D26C1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #5D26C1, #a17fe0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #5D26C1, #a17fe0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.footer-head-text {
+  font-family: "Poppins";
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  text-align: start;
+}
+
+.footer-content-text {
+  list-style: none;
+  padding-top: 5px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .my-accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    align-items: center;
+    max-width: 50%;
+  }
+}
+
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Pacifico Regular"), local("Pacifico-Regular"),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format("woff2");
+  font-display: swap;
+}
+
+.div-bg-bg {
+  background-image: linear-gradient(
+    to right top,
+    #5cee44,
+    #c5c400,
+    #fd8e00,
+    #ff4a46,
+    #ff008a,
+    #ff009a,
+    #ff00ab,
+    #ff00bd,
+    #ff0092,
+    #ff1e69,
+    #ff4a43,
+    #ff6a1b
+  );
+  height: 70vh;
+}
+
+/* loading pointer css */
+
+.check-1 {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 18px;
+  width: 9px;
+  --borderWidth: 3px;
+  --borderColor: #0056f5;
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.check-2 {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 10px;
+  --borderWidth: 3px;
+  --borderColor: #8b00d0;
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.check-3 {
+  display: inline-block;
+  transform: rotate(45deg);
+  height: 20px;
+  width: 10px;
+  --borderWidth: 3px;
+  --borderColor: #78b13f;
+  border-bottom: var(--borderWidth) solid var(--borderColor);
+  border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.cussLine{
+  display: flex;
+  /* align-items: center; */
+  /* vertical-align: middle; */
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.head-sub-head{
+  color:grey;
+  font-family: 'Poppins';
+  font-size: 13px;
+}
+
+
+.custom-box-shadow-navbar{
+  box-shadow: 2px 2px 5px rgba(96, 48, 255, 0.621);
+}
+
+.custom-container-dimensions{
+  height:auto;
+  background-color: #b973ff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+.custom-container-dimensions-1{
+  height:auto;
+  background-color: #A4BE7B;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+}
+
+
+.price-btn-color-1{
+
+  background-color: #8b00d0;
+
+}
+
+.price-btn-color-1:hover {
+  background-color: #78b13f;
+  color: #fff;
+}
+
+.price-btn-color-2{
+
+  background-color: #78b13f;
+
+}
+
+.price-btn-color-2:hover {
+  background-color: #8b00d0;
+  color: #fff;
+}
+
+.custom-btn-group{
+  border-color: transparent;
+}
+/* Social Icons Css*/
+
+
+.custom-row-pricing{
+  border: 1px solid #000; /* Add your desired border style here */
+  height: 100px; /* Add your desired height here */
+  padding: 10px; /* Add padding if needed */
+}
+
+
+/* Social Icons Css*/
+
+
+
+

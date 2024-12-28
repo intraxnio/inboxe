@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /blog/ghost/
+Disallow: /blog/p/
+Disallow: /blog/subscribe/
+
+Sitemap: https://www.buzzreach.in/sitemap.xml
