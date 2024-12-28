@@ -1,7 +1,6 @@
 import React from "react";
-import mainBanner from "../images/dashimg.png"
 import { Link } from 'react-router-dom';
-import { AppBar, Toolbar, IconButton, Typography, Box, List, ListItem, ListItemText, Hidden, Stack, Button } from '@mui/material';
+import { Typography, Box, Stack } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
@@ -61,7 +60,7 @@ function BodyMain() {
 
             <Stack sx={{ justifyContent : 'center', alignItems : 'center'}}>
                 <Typography sx={{ paddingTop : '20%', fontSize : '28px', fontWeight : 500, paddingX : '8%'}}>Why we're best-in-class for Realtors</Typography>
-                <Typography sx={{ marginTop : '12px', fontSize : '18px', paddingX : '8%'}}>The #1 email marketing and automations platform that recommends ways to get more opens, clicks and sales.</Typography>
+                <Typography sx={{ marginTop : '12px', fontSize : '18px', paddingX : '8%'}}>The #1 email marketing and NO SPAM platform that recommends ways to get more opens, clicks and sales.</Typography>
               </Stack>
       
       
@@ -74,7 +73,7 @@ function BodyMain() {
             </Stack>
       
             <Stack sx={{ display : 'flex', flexDirection : 'column', marginTop : '46px'}}>
-              <Typography sx={{ fontSize : '24px', fontWeight : 400}}>12M+ Users</Typography>
+              <Typography sx={{ fontSize : '24px', fontWeight : 400}}>4.7 Rating</Typography>
               <Typography>of Inboxe globally</Typography>
             </Stack>
       
@@ -90,8 +89,8 @@ function BodyMain() {
       </Stack>
 
       <Stack sx={{ display : 'flex', flexDirection : 'column', marginTop : '46px'}}>
-        <Typography sx={{ fontSize : '24px', fontWeight : 400}}>$1.7K per campaign</Typography>
-        <Typography>generated on average*</Typography>
+        <Typography sx={{ fontSize : '24px', fontWeight : 400}}>97.6% deliverability</Typography>
+        <Typography>on average*</Typography>
       </Stack>
 
         </Stack>
@@ -116,7 +115,7 @@ function BodyMain() {
   
         <div className = "main-card-sec-1">
             <Typography sx={{ fontSize : '28px', fontWeight : 500}}>Why we're best-in-class for Realtors</Typography>
-            <Typography sx={{ marginTop : '12px', fontSize : '18px', paddingRight : '22px'}}>The #1 email marketing and automations platform that recommends ways to get more opens, clicks and sales.</Typography>
+            <Typography sx={{ marginTop : '12px', fontSize : '18px', paddingRight : '22px'}}>The #1 email marketing and NO SPAM platform that recommends ways to get more opens, clicks and sales.</Typography>
           </div>
   
         </div>
@@ -131,7 +130,7 @@ function BodyMain() {
         </Stack>
   
         <Stack sx={{ display : 'flex', flexDirection : 'column', marginTop : '56px'}}>
-          <Typography sx={{ fontSize : '24px', fontWeight : 400}}>12M+ Users</Typography>
+          <Typography sx={{ fontSize : '24px', fontWeight : 400}}>4.7 Rating</Typography>
           <Typography>of Inboxe globally</Typography>
         </Stack>
   
@@ -149,8 +148,8 @@ function BodyMain() {
         </Stack>
   
         <Stack sx={{ display : 'flex', flexDirection : 'column', marginTop : '56px'}}>
-          <Typography sx={{ fontSize : '24px', fontWeight : 400}}>$1.7K per campaign</Typography>
-          <Typography>generated on average*</Typography>
+          <Typography sx={{ fontSize : '24px', fontWeight : 400}}>97.6% deliverability</Typography>
+          <Typography>on average*</Typography>
         </Stack>
   
           </Stack>

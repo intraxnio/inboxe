@@ -5,6 +5,10 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Link } from 'react-router-dom';
 import { deepOrange, blue, indigo, green, purple, brown } from '@mui/material/colors';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { useNavigate } from "react-router-dom";
+
+
+
 const theme = createTheme({
     palette: {
       primary: {
@@ -25,10 +29,26 @@ const theme = createTheme({
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
-
+    const navigate = useNavigate();
+    
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    const redirectToPricing = () => {
+        navigate(`/pricing`);
+       
+      };
+
+      
+    const redirectToLogin = () => {
+        navigate(`/login`);
+       
+      };
+      const redirectToSignup = () => {
+          navigate(`/signup/brand`);
+         
+        };
 
     return (
         <ThemeProvider theme={theme}>
@@ -68,20 +88,20 @@ export default function Navbar() {
                     <Hidden smDown>
     <Box sx={{ display: 'flex', maxWidth: '100%' }}>
         <List sx={{ display: 'flex', width: '100%', marginRight : '112px' }}>
-            <ListItem component={Link} to="/" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
+            {/* <ListItem component={Link} to="/" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
                 <ListItemText primary="Features" />
-            </ListItem>
-            <ListItem component={Link} to="/use-cases" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
+            </ListItem> */}
+            <ListItem component={Link} to="/pricing" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
                 <ListItemText primary="Pricing" />
             </ListItem>
-            <ListItem component={Link} to="/pricing" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
+            {/* <ListItem component={Link} to="/brand/support" sx={{ color: '#11009E', whiteSpace: 'nowrap' }}>
                 <ListItemText primary="Support" />
-            </ListItem>
+            </ListItem> */}
         </List>
 
         <Stack sx={{ display : 'flex', flexDirection : 'row', alignItems : 'center', marginRight : '80px'}}>
-          <Button variant='outlined' color="primary" sx={{ paddingX : '66px', height : '44px', textTransform : 'none'}}>Login</Button>
-          <Button variant='contained' color="primary" sx={{ paddingX : '66px', height : '44px', marginLeft : '12px', textTransform : 'none', whiteSpace: 'nowrap'}}>Sign up</Button>
+          <Button onClick={redirectToLogin} variant='outlined' color="primary" sx={{ paddingX : '66px', height : '44px', textTransform : 'none'}}>Login</Button>
+          <Button onClick={redirectToSignup} variant='contained' color="primary" sx={{ paddingX : '66px', height : '44px', marginLeft : '12px', textTransform : 'none', whiteSpace: 'nowrap'}}>Sign up</Button>
         </Stack>
 
     </Box>
@@ -107,14 +127,14 @@ export default function Navbar() {
                 >
                     {/* Navigation Links for Mobile */}
                     <Stack sx={{ display : 'flex', flexDirection : 'column', width: '100%', alignItems : 'flex-start', width: '100%', paddingX : '12px' }}>
-                        <Button sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Features</Button>
-                        <Button sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Pricing</Button>
-                        <Button sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Support</Button>
+                        {/* <Button sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Features</Button> */}
+                        <Button onClick={redirectToPricing} sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Pricing</Button>
+                        {/* <Button sx={{ textTransform : 'none', color : '#1B1833', fontSize : '16px', marginTop : '12px' }}>Support</Button> */}
                        
 
                         <Stack sx={{ display : 'flex', flexDirection : 'column', alignItems : 'center', marginRight : '80px', width: '100%', marginTop : '32px'}}>
-          <Button variant='outlined' color="primary" sx={{ width : '100%', height : '44px', textTransform : 'none' }}>Log in</Button>
-          <Button variant='contained' color="primary" sx={{ width : '100%', height : '44px', marginTop : '12px', textTransform : 'none'}}>Sign up</Button>
+          <Button onClick={redirectToLogin} variant='outlined' color="primary" sx={{ width : '100%', height : '44px', textTransform : 'none' }}>Log in</Button>
+          <Button onClick={redirectToSignup} variant='contained' color="primary" sx={{ width : '100%', height : '44px', marginTop : '12px', textTransform : 'none'}}>Sign up</Button>
         </Stack>
                     </Stack>
 
