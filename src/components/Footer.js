@@ -47,22 +47,22 @@ export default function Footer() {
               <ul>
                 <li className="footer-head-text">Compare</li>
                 <li className="footer-content-text">
-                 Bitly Alternative
+                 Mailchimp Alternative
                 </li>
                 <li className="footer-content-text">
-                 ShortUrl Alternative
+                 Mailerlite Alternative
                 </li>
                 <li className="footer-content-text">
-                 Rebrandly Alternative
+                 Brevo Alternative
                 </li>
                 <li className="footer-content-text">
-                 TinyUrl Alternative
+                 GetResponse Alternative
                 </li>
                 <li className="footer-content-text">
-                 t.ly Alternative
+                 Omnisend Alternative
                 </li>
                 <li className="footer-content-text">
-                 Pixally Alternative
+                 Klaviyo Alternative
                 </li>
                
 
