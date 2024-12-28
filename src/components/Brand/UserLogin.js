@@ -37,7 +37,7 @@ function BrandLogin() {
 
     if(user.user_id){
 
-      navigate("/brand/linksCard");
+      navigate("/brand/allContacts");
 
     }
     
@@ -64,7 +64,7 @@ function BrandLogin() {
 
        dispatch(login(userDetails));
        setIsLoading(false);
-      navigate("/brand/linksCard");
+      navigate("/brand/allContacts");
 
   })
   .catch((err) => {
